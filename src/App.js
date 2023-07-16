@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <Navbar />
+        <Navbar />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -36,7 +36,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/*" element={<h1>Page not Found....</h1>} />
-        </Routes> */}
+        </Routes>
       
 
       {/* <NewArrival/> */}
@@ -49,8 +49,7 @@ function App() {
       {/* <SingleProduct /> */}
 
 
-      {/* <Footer /> */}
-      <Test/>
+      <Footer />
       </BrowserRouter>
     </>
   );
